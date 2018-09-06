@@ -1,24 +1,21 @@
-# NativeScript TypeScript Template
+# Build Basic NativeScript App Templates
 
-This template creates a NativeScript app with the NativeScript hello world example,
-however, in this template the example is built with TypeScript.
+The code in this repository coincides with Brad Martin's course on egghead.io [here](https://egghead.io/courses/build-basic-nativescript-app-templates).
 
-You can create a new app that uses this template with either the `--template` option.
+To follow along with this course, you will need a simulator or device to run the NativeScript app on your computer (e.g. XCode). 
 
+Setup:
+
+Clone github repository.
+
+`cd` into `app`.
+
+Run  
 ```
-tns create my-app-name --template tns-template-hello-world-ts
-```
+tns run ios --emulator
+``` 
+to open the app in your simulator. (If the simulator is properly equipped for this app, it will open automatically. Otherwise, it may prompt you to set up necessary packages. Initial build may take some time.)
 
-Or the `--tsc` shorthand.
+The simulator will open with a menu to navigate between lessons.
 
-```
-tns create my-app-name --tsc
-```
-
-> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world-ts).
-
-If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
-
-```
-tns create my-app-name --template https://github.com/NativeScript/template-hello-world-ts.git#master
-```
+*Note: Styling may differ from videos, especially for iOS users.

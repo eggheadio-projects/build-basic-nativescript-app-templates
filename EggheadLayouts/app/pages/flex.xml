@@ -1,7 +1,7 @@
 <Page>
     <FlexboxLayout class="main-container">
         <Button order="1" text="Hello" backgroundColor="red" height="60" />
-        <Button order="2" text="Goodbye" backgroundColor="green" height="100" />
+        <Button order="2" text="Goodbye" backgroundColor="#00FF00" height="100" />
         <Button text="Egghead" color="white" backgroundColor="blue" height="50" />
     </FlexboxLayout>
 </Page>

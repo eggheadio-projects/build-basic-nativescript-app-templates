@@ -1,11 +1,11 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd">
     <StackLayout>
             <StackLayout backgroundColor="#ff4081">
-                <Button text="hello" />
+                <Button text="hi" />
                 <Button text="Goodbye" />
                 <Label text="This can go on for some time" />
             </StackLayout>
-            <StackLayout orientation="horizontal" backgroundColor="#3489db">
+            <StackLayout orientation="horizontal" backgroundColor="#00FF00">
                 <Button text="This Is Easy" tap="" />
                 <Button text="Tell Me About It" />
             </StackLayout>
