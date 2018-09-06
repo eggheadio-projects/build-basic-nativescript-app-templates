@@ -18,4 +18,6 @@ to open the app in your simulator. (If the simulator is properly equipped for th
 
 The simulator will open with a menu to navigate between lessons.
 
+Use the `.xml` files in under the `pages` section of the `app` to follow along with the course.
+
 *Note: Styling may differ from videos, especially for iOS users.
